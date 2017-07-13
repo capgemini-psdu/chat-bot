@@ -21,11 +21,11 @@ public class ServiceTest {
 
     @Test
     public void test_createPost() throws Exception {
-        model.createPost("MVP",testValue1 );
+        int id =model.createPost("MVP",testValue1 );
         List<AcronymModel> acronymModelList =  model.getAllPosts();
-        assertTrue(acronymModelList.get(0).getText().equals(testValue1));
+        assertTrue(acronymModelList.get(id).getText().equals(testValue1));
     }
 
-
+//TODO: tests for get acronym and test for voting
 
 }
