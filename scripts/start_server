@@ -1,3 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/deployment
-java -jar target/chatbot-app-1.0.jar
+nohup java -jar target/chatbot-app-1.0.jar &
+ps aux
+ls -lah
