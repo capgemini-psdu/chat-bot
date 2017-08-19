@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar /home/ec2-user/deployment/target/chatbot-app-1.0.jar
