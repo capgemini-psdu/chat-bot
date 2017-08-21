@@ -1,2 +1,13 @@
 #!/bin/bash
+yum update -y
+
 yum install -y java-1.8.0-openjdk.x86_64
+alternatives --config java-1.8.0-openjdk.x86_64
+
+yum install -y docker
+
+isExistContainer = `docker ps | grep capgemini-psddo`
+if [[ -z  $isExistContainer ]]; then
+   docker build -f Dockerfile -t capgemini-psddo/oracle-java:8 . 
+fi
+
