@@ -1,4 +1,4 @@
-package service;
+package com.chatbot.service;
 
 /**
  * Created by phil on 12/07/17.
@@ -6,7 +6,7 @@ package service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import model.AcronymModel;
+import com.chatbot.model.AcronymModel;
 
 import java.io.IOException;
 import java.io.StringWriter;

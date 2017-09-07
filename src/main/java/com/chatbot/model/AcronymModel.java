@@ -1,8 +1,10 @@
-package model;
+package com.chatbot.model;
 
 /**
  * Created by phil on 12/07/17.
  */
+
+
 public class AcronymModel {
 
     private int id;

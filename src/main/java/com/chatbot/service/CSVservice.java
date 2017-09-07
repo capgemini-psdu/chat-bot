@@ -1,6 +1,6 @@
-package service;
+package com.chatbot.service;
 
-import model.AcronymModel;
+import com.chatbot.model.AcronymModel;
 
 import java.io.*;
 import java.util.ArrayList;

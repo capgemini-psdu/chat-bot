@@ -3,10 +3,10 @@
  */
 
 
-import model.AcronymModel;
+import com.chatbot.model.AcronymModel;
 import org.junit.Test;
 
-import service.AcronymService;
+import com.chatbot.service.AcronymService;
 
 import java.util.List;
 
